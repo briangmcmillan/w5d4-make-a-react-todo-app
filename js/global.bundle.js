@@ -21510,7 +21510,7 @@
 	var TodoItem = function TodoItem(props) {
 	    return _react2.default.createElement(
 	        "div",
-	        { className: "margin" },
+	        { className: "margin animated flipInX" },
 	        props.data
 	    );
 	};
